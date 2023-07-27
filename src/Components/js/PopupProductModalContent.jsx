@@ -12,6 +12,7 @@ function PopupProductModal() {
     if (popupState) {
         return ReactDOM.createPortal(
             <div>
+              {/* <p>hola</p>
               <p>hola</p>
               <p>hola</p>
               <p>hola</p>
@@ -21,8 +22,7 @@ function PopupProductModal() {
               <p>hola</p>
               <p>hola</p>
               <p>hola</p>
-              <p>hola</p>
-              <p>hola</p>
+              <p>hola</p> */}
             </div>,
             portalRoot // Renderiza el contenido en el nodo del portal
           );
