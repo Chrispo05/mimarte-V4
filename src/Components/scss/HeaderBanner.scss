@@ -1,0 +1,148 @@
+
+
+.header-banner-container{
+    
+    width: 100%;
+    position: relative;
+   
+    margin-bottom: -4px;
+   
+}
+
+
+.header-banner__img{
+    object-fit:cover;
+    width: 100%;
+    height: 6*66px;
+}
+.header-banner__glass-filter{
+    position: absolute;
+    width: 100%;
+    height: 6*66px;
+    z-index: 50;
+   
+    /* background-color: #e6e3ee8c; */
+    background-color:#eddfe5a2;
+    
+}
+
+
+
+.header-banner__text-container{
+    position: absolute;
+    
+    top: 50%;
+    z-index: 50;
+    left: 0;
+    right: 0;
+    
+    
+    div{
+       /*  background-color: #e2dfec8c; */
+        border-radius: 6px;
+        padding: 6*2px;
+        
+        
+        /* background-color: #f4eeeb; */
+
+    }
+
+
+    p{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+        font-weight: 500;
+        
+       
+    }
+    
+
+    .header-banner__text2{
+        font-weight: 400;
+    }
+
+    .header-banner__text-icon{
+        font-size: 1.6em;
+    }
+    .header-banner__down-text-container{
+        position: absolute;
+        
+        top:180%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        
+        backdrop-filter: blur(2px);
+        background-color: #f3f3f3;
+       /*  background-color: #908784; */
+
+        p{
+            text-align: left;
+        }
+    }
+
+    .header-banner__down-text__icon{
+        font-size: 1.7em;
+        margin-left: 1em;
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+  
+    .header-banner__img{
+       
+        height: 6*76px;
+    }
+    .header-banner__glass-filter{
+     
+        height: 6*76px;
+    
+    }
+
+    .header-banner__down-text-container{
+        top: 210% !important;
+    }
+
+    
+
+   
+}
+
+@media (min-width: 1200px) {
+  
+    .header__navbar__logo-img{
+        width: 6 *42px;
+        height: 6 *42px;
+        border-radius: 50%;
+      
+       
+        
+        
+     }
+     .header-banner__down-text-container{
+        top: 286% !important;
+    }
+     .header-banner__img{
+       
+        height: 6*100px;
+    }
+    .header-banner__glass-filter{
+     
+        height: 6*100px;
+    
+    }
+    
+
+   
+}
